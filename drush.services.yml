@@ -1,0 +1,5 @@
+services:
+  theme_converter.commands:
+    class: \Drupal\theme_converter\Commands\ThemeConverterCommands
+    tags:
+      - { name: drush.command }
